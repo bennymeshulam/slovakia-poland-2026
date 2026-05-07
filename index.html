@@ -200,7 +200,7 @@
     border: 1px solid rgba(78,168,222,0.3);
     color: #4EA8DE;
     border-radius: 16px;
-    padding: 4px 10px;
+    padding: 4px 8px;
     font-size: 11px;
     font-weight: 600;
     font-family: 'Heebo', sans-serif;
@@ -208,6 +208,28 @@
     white-space: nowrap;
     flex-shrink: 0;
     align-self: center;
+  }
+
+  .act-nav-gmap {
+    background: rgba(82,183,136,0.15);
+    border: 1px solid rgba(82,183,136,0.3);
+    color: #52B788;
+    border-radius: 16px;
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: 'Heebo', sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    flex-shrink: 0;
+    align-self: center;
+  }
+
+  .nav-btns {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    flex-shrink: 0;
   }
 
   .act-optional {
@@ -452,13 +474,13 @@
   <div class="day-card">
     <div class="day-header sk">
       <div><div class="day-num">יום 2</div><div class="day-date">25/08 שני</div></div>
-      <div class="day-title">פסגות ואקשן</div>
+      <div class="day-title">פסגות, טבע ואקשן</div>
     </div>
     <div class="activity">
       <div class="act-time">10:00</div>
       <div class="act-content">
         <div class="act-name">הר Chopok – רכבל</div>
-        <div class="act-note">15 דקות מהבקתה • <a href="https://www.jasna.sk/en">אתר</a></div>
+        <div class="act-note">15 דקות מהבקתה • פתוח 08:00-17:00 • 24€ מבוגר, 17€ ילד • <a href="https://www.jasna.sk/en">אתר</a></div>
       </div>
       <a class="act-nav" href="https://waze.com/ul?q=Jasna+Nizke+Tatry">ניווט</a>
     </div>
@@ -466,12 +488,28 @@
       <div class="act-time">14:00</div>
       <div class="act-content">
         <div class="act-name">פארק חבלים Tarzania</div>
-        <div class="act-note">צמוד לרכבל – Hotel SKI Záhradky</div>
+        <div class="act-note">צמוד לרכבל – Hotel SKI Záhradky • פתוח 09:00-18:00 • <a href="https://www.tarzania.sk">אתר</a></div>
       </div>
       <a class="act-nav" href="https://waze.com/ul?ll=48.96852,19.57989&navigate=yes">ניווט</a>
     </div>
     <div class="activity">
-      <div class="act-time">17:00</div>
+      <div class="act-time">16:00</div>
+      <div class="act-content">
+        <div class="act-name">🥾 שביל טבע דמנובסקה</div>
+        <div class="act-note">4 ק"מ קל לאורך הנחל • ~שעה • מתחיל ליד הבקתה</div>
+      </div>
+      <a class="act-nav" href="https://waze.com/ul?q=Demanovska+Dolina+nature+trail">ניווט</a>
+    </div>
+    <div class="activity">
+      <div class="act-time">17:15</div>
+      <div class="act-content">
+        <div class="act-name"><span class="act-optional">אופציה</span> מגלשת Demänovská</div>
+        <div class="act-note">10 דקות מהבקתה • פתוח 09:00-18:00 • <a href="https://www.ziarce.sk">אתר</a></div>
+      </div>
+      <a class="act-nav" href="https://waze.com/ul?q=Bobova+Draha+Demanovska">ניווט</a>
+    </div>
+    <div class="activity">
+      <div class="act-time">18:00</div>
       <div class="act-content"><div class="act-name">חזרה לבקתה</div></div>
       <a class="act-nav" href="https://waze.com/ul?q=Chata+Demian">ניווט</a>
     </div>
@@ -487,7 +525,7 @@
       <div class="act-time">10:00</div>
       <div class="act-content">
         <div class="act-name">פארק מים Tatralandia</div>
-        <div class="act-note">15 דקות מהבקתה • להזמין ב-<a href="https://www.gopass.travel/homepage/tatralandia">gopass.travel</a></div>
+        <div class="act-note">15 דקות מהבקתה • פתוח 10:00-20:00 • להזמין ב-<a href="https://www.gopass.travel/homepage/tatralandia">gopass.travel</a></div>
       </div>
       <a class="act-nav" href="https://waze.com/ul?q=Aquapark+Tatralandia">ניווט</a>
     </div>
@@ -510,36 +548,70 @@
   <div class="day-card">
     <div class="day-header sk">
       <div><div class="day-num">יום 4</div><div class="day-date">27/08 רביעי</div></div>
-      <div class="day-title">טבע, קולינריה ומגלשות</div>
+      <div class="day-title">יום טבע בטטרות הגבוהות 🌿</div>
     </div>
     <div class="activity">
-      <div class="act-time">09:00</div>
+      <div class="act-time">09:30</div>
       <div class="act-content">
         <div class="act-name">אגם Štrbské Pleso ⭐</div>
-        <div class="act-note">45 דקות מהבקתה – להגיע לפני 09:30</div>
+        <div class="act-note">45 דקות מהבקתה • הליכה סביב האגם + סירות משוטים + גלידה • <a href="https://www.strbskepleso.sk">אתר</a></div>
       </div>
       <a class="act-nav" href="https://waze.com/ul?q=Strbske+Pleso">ניווט</a>
     </div>
     <div class="activity">
-      <div class="act-time">12:30</div>
+      <div class="act-time">12:00</div>
       <div class="act-content">
-        <div class="act-name">ארוחת צהריים – Restart Burger</div>
-        <div class="act-note">בדרך חזרה • <a href="https://www.restartburger.com/">אתר</a></div>
+        <div class="act-name"><span class="act-optional">אופציה</span> מפל Vodopád Skok</div>
+        <div class="act-note">הליכה 3 ק"מ מהאגם • ~שעה • נשא לתינוקת • לא מתאים לעגלה</div>
       </div>
-      <a class="act-nav" href="https://waze.com/ul?q=Restart+Burger+Liptovsky+Mikulas">ניווט</a>
+      <a class="act-nav" href="https://waze.com/ul?q=Vodopad+Skok+Strbske+Pleso">ניווט</a>
     </div>
     <div class="activity">
-      <div class="act-time">14:30</div>
-      <div class="act-content"><div class="act-name">חזרה לבקתה – מנוחה</div></div>
+      <div class="act-time">13:30</div>
+      <div class="act-content">
+        <div class="act-name">ארוחת צהריים – Restart Burger</div>
+        <div class="act-note">פופרד • בדרך חזרה לבקתה • <a href="https://www.restartburger.com/">אתר</a></div>
+      </div>
+      <a class="act-nav" href="https://waze.com/ul?q=Restart+Burger+Poprad">ניווט</a>
+    </div>
+    <div class="activity">
+      <div class="act-time">15:00</div>
+      <div class="act-content">
+        <div class="act-name"><span class="act-optional">אופציה א</span> כפר UNESCO Vlkolínec</div>
+        <div class="act-note">בדרך חזרה • כניסה חינם • 45 בתי עץ מהמאה ה-18 • פתוח 09:30-17:00 • <a href="https://www.visitliptov.sk/en/interests/village-vlkolinec-unesco/">אתר</a></div>
+      </div>
+      <a class="act-nav" href="https://waze.com/ul?q=Vlkolinec+UNESCO+Ruzomberok">ניווט</a>
+    </div>
+    <div class="activity">
+      <div class="act-time">16:30</div>
+      <div class="act-content">
+        <div class="act-name"><span class="act-optional">אופציה א המשך</span> מגלשת Demänovská</div>
+        <div class="act-note">10 דקות מהבקתה • פתוח 09:00-18:00 • <a href="https://www.ziarce.sk">אתר</a></div>
+      </div>
+      <a class="act-nav" href="https://waze.com/ul?q=Bobova+Draha+Demanovska">ניווט</a>
+    </div>
+    <div class="activity">
+      <div class="act-time">18:00</div>
+      <div class="act-content">
+        <div class="act-name"><span class="act-optional">אופציה א המשך</span> חזרה לבקתה</div>
+      </div>
       <a class="act-nav" href="https://waze.com/ul?q=Chata+Demian">ניווט</a>
     </div>
     <div class="activity">
-      <div class="act-time">16:00</div>
+      <div class="act-time">15:00</div>
       <div class="act-content">
-        <div class="act-name">מגלשת Demänovská</div>
-        <div class="act-note">10 דקות מהבקתה • <a href="https://www.ziarce.sk">אתר</a></div>
+        <div class="act-name"><span class="act-optional">אופציה ב</span> Bachledka – צמרות עצים + מגלשות ארוכות</div>
+        <div class="act-note">הכל באותו מקום • 40 דקות מפופרד • פתוח 09:00-18:00 • כניסה אחרונה 17:00 • ~28€ מבוגר, ~23€ ילד • <a href="https://bachledka.sk/en">אתר</a></div>
       </div>
-      <a class="act-nav" href="https://waze.com/ul?q=Bobova+Draha+Demanovska">ניווט</a>
+      <a class="act-nav" href="https://waze.com/ul?q=Bachledka+Treetop+Walk+Zdiar">ניווט</a>
+    </div>
+    <div class="activity">
+      <div class="act-time">18:30</div>
+      <div class="act-content">
+        <div class="act-name"><span class="act-optional">אופציה ב המשך</span> חזרה לבקתה</div>
+        <div class="act-note">שעה וחצי נסיעה מ-Bachledka</div>
+      </div>
+      <a class="act-nav" href="https://waze.com/ul?q=Chata+Demian">ניווט</a>
     </div>
   </div>
 
@@ -569,7 +641,7 @@
       <div class="act-time">15:00</div>
       <div class="act-content">
         <div class="act-name">פארק מים Bešeňová</div>
-        <div class="act-note">5 דקות מהמסעדה • <a href="https://www.besenova.com/en">אתר</a></div>
+        <div class="act-note">5 דקות מהמסעדה • פתוח 10:00-20:00 • <a href="https://www.besenova.com/en">אתר</a></div>
       </div>
       <a class="act-nav" href="https://waze.com/ul?q=Besenova+Aquapark">ניווט</a>
     </div>
@@ -642,7 +714,7 @@
       <div class="act-time">09:45</div>
       <div class="act-content">
         <div class="act-name">🧂 מכרות מלח Wieliczka</div>
-        <div class="act-note">⚠️ להזמין ב-1/06 • Family Ticket × 2 • אנגלית • <a href="https://bilety.kopalnia.pl/index.html?lang=en">הזמנה</a></div>
+        <div class="act-note">⚠️ להזמין ב-1/06 • Family Ticket × 2 • אנגלית • פתוח 08:00-18:00 • כניסה אחרונה 16:30 • <a href="https://bilety.kopalnia.pl/index.html?lang=en">הזמנה</a></div>
       </div>
       <a class="act-nav" href="https://waze.com/ul?q=Wieliczka+Salt+Mine">ניווט</a>
     </div>
@@ -708,7 +780,7 @@
       <div class="act-time">10:00</div>
       <div class="act-content">
         <div class="act-name">פארק Energylandia</div>
-        <div class="act-note">50 דקות מהדירה • ⚠️ להזמין מראש • <a href="https://energylandia.pl/en">אתר</a></div>
+        <div class="act-note">50 דקות מהדירה • פתוח 10:00-19:00 • ⚠️ להזמין מראש • <a href="https://energylandia.pl/en">אתר</a></div>
       </div>
       <a class="act-nav" href="https://waze.com/ul?q=Energylandia">ניווט</a>
     </div>
@@ -1065,6 +1137,37 @@
     event.currentTarget.classList.add('active');
     window.scrollTo(0, 0);
   }
+
+  // Add Google Maps buttons next to all Waze buttons
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('a.act-nav').forEach(function(wazeBtn) {
+      const wazeUrl = wazeBtn.href;
+      const query = wazeUrl.replace('https://waze.com/ul?q=', '').replace('https://waze.com/ul?ll=', '');
+      
+      let gmapUrl;
+      if (wazeUrl.includes('?ll=')) {
+        const coords = wazeUrl.match(/ll=([\d.]+),([\d.]+)/);
+        if (coords) gmapUrl = `https://maps.google.com/?q=${coords[1]},${coords[2]}`;
+      } else {
+        gmapUrl = `https://maps.google.com/?q=${query}`;
+      }
+
+      const wrapper = document.createElement('div');
+      wrapper.className = 'nav-btns';
+      wazeBtn.parentNode.insertBefore(wrapper, wazeBtn);
+      wazeBtn.textContent = '🗺️ וויז';
+      wrapper.appendChild(wazeBtn);
+
+      if (gmapUrl) {
+        const gmapBtn = document.createElement('a');
+        gmapBtn.href = gmapUrl;
+        gmapBtn.className = 'act-nav-gmap';
+        gmapBtn.textContent = '📍 גוגל';
+        gmapBtn.target = '_blank';
+        wrapper.appendChild(gmapBtn);
+      }
+    });
+  });
 </script>
 
 </body>
