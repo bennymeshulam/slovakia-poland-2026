@@ -371,9 +371,10 @@
 <!-- TAB NAV -->
 <nav class="tab-nav">
   <button class="tab-btn active" onclick="switchTab('trip')">🗓️ טיול</button>
-  <button class="tab-btn" onclick="switchTab('restaurants')">🍽️ מסעדות</button>
+  <button class="tab-btn" onclick="switchTab('restaurants')">🍽️ אוכל</button>
   <button class="tab-btn" onclick="switchTab('attractions')">🎯 אטרקציות</button>
   <button class="tab-btn" onclick="switchTab('shopping')">🛒 קניות</button>
+  <button class="tab-btn" onclick="switchTab('rain')">🌧️ גשם</button>
 </nav>
 
 <!-- ===== TRIP PAGE ===== -->
@@ -417,6 +418,7 @@
       <a class="info-link" href="https://autopay.pl/en">autopay.pl/en ↗</a>
     </div>
   </div>
+
 
   <div class="section-header">
     <span class="section-flag">🇸🇰</span>
@@ -703,15 +705,31 @@
       </div>
     </div>
     <div class="activity">
-      <div class="act-time">11:00</div>
+      <div class="act-time">10:30</div>
+      <div class="act-content">
+        <div class="act-name"><span class="act-optional">אופציה</span> 🏰 אגם Czorsztyn – טירה + שייט + מגלשת</div>
+        <div class="act-note">40 דקות מהבקתה • שתי טירות מול מול על האגם • סירות + מגלשת הרים • 2 שעות עצירה</div>
+      </div>
+      <a class="act-nav" href="https://waze.com/ul?q=Czorsztyn+Castle+Poland">ניווט</a>
+    </div>
+    <div class="activity">
+      <div class="act-time">13:00</div>
       <div class="act-content">
         <div class="act-name">זאקופנה – מדרחוב Krupówki</div>
-        <div class="act-note">55 דקות מהבקתה • Oscypek גבינה מעושנת • קניות • Kürtos</div>
+        <div class="act-note">55 דקות מהבקתה / 30 דקות מCzorsztyn • Oscypek גבינה מעושנת • קניות • Kürtos</div>
       </div>
       <a class="act-nav" href="https://waze.com/ul?q=Krupowki+Zakopane">ניווט</a>
     </div>
     <div class="activity">
-      <div class="act-time">13:30</div>
+      <div class="act-time">12:30</div>
+      <div class="act-content">
+        <div class="act-name">🚡 רכבל Gubałówka</div>
+        <div class="act-note">ממש על Krupówki • 39 זלוטי מבוגר, 28 זלוטי ילד • נוף מדהים על הטטרה • פארק חבלים + מגלשות למעלה</div>
+      </div>
+      <a class="act-nav" href="https://waze.com/ul?q=Gubalowka+Zakopane">ניווט</a>
+    </div>
+    <div class="activity">
+      <div class="act-time">14:30</div>
       <div class="act-content">
         <div class="act-name">פארק מים Chochołowskie Termy <span class="act-optional">אופציה</span></div>
         <div class="act-note">20 דקות מזאקופנה • 30 בריכות תרמיות • <a href="https://gyg.me/Nxj4vPTX">הזמנה מראש</a></div>
@@ -719,14 +737,14 @@
       <a class="act-nav" href="https://waze.com/ul?q=Chocholowskie+Termy">ניווט</a>
     </div>
     <div class="activity">
-      <div class="act-time">16:00</div>
+      <div class="act-time">17:00</div>
       <div class="act-content">
         <div class="act-name">יציאה לקרקוב</div>
         <div class="act-note">שעתיים נסיעה מזאקופנה</div>
       </div>
     </div>
     <div class="activity">
-      <div class="act-time">18:30</div>
+      <div class="act-time">19:30</div>
       <div class="act-content">
         <div class="act-name">הגעה – 19 Rooms קרקוב</div>
         <div class="act-note">Kalwaryjska 66</div>
@@ -734,19 +752,20 @@
       <a class="act-nav" href="https://waze.com/ul?q=Kalwaryjska+66+Krakow">ניווט</a>
     </div>
   </div>
+
   <!-- יום 8 -->
   <div class="day-card">
     <div class="day-header pl">
       <div><div class="day-num">יום 8</div><div class="day-date">31/08 שני</div></div>
-      <div class="day-title">קרקוב – עיר עתיקה וגיימינג</div>
+      <div class="day-title">מכרות מלח + קרקוב</div>
     </div>
     <div class="activity">
-      <div class="act-time">10:00</div>
+      <div class="act-time">09:00</div>
       <div class="act-content">
-        <div class="act-name">טירת Wawel</div>
-        <div class="act-note">פתוח 09:00-17:00 • כדאי לקנות מראש</div>
+        <div class="act-name"><span class="act-optional">אופציה</span> 🧂 מכרות מלח Wieliczka</div>
+        <div class="act-note">15 דקות מהדירה • אתר UNESCO • פתוח 08:00-18:00 • כניסה אחרונה 16:30 • להזמין מראש! • <a href="https://bilety.kopalnia.pl/index.html?lang=en">הזמנה</a></div>
       </div>
-      <a class="act-nav" href="https://waze.com/ul?q=Wawel+Castle">ניווט</a>
+      <a class="act-nav" href="https://waze.com/ul?q=Wieliczka+Salt+Mine">ניווט</a>
     </div>
     <div class="activity">
       <div class="act-time">13:00</div>
@@ -755,6 +774,14 @@
         <div class="act-note">הרובע היהודי ההיסטורי • ממש ליד הדירה</div>
       </div>
       <a class="act-nav" href="https://waze.com/ul?q=Kazimierz+Krakow">ניווט</a>
+    </div>
+    <div class="activity">
+      <div class="act-time">15:00</div>
+      <div class="act-content">
+        <div class="act-name"><span class="act-optional">אופציה</span> טירת Wawel</div>
+        <div class="act-note">פתוח 09:00-17:00 • כדאי לקנות מראש</div>
+      </div>
+      <a class="act-nav" href="https://waze.com/ul?q=Wawel+Castle">ניווט</a>
     </div>
     <div class="activity">
       <div class="act-time">16:00</div>
@@ -767,8 +794,8 @@
     <div class="activity">
       <div class="act-time">19:00</div>
       <div class="act-content">
-        <div class="act-name">מוזיאון הארקייד <span class="act-optional">אופציה</span></div>
-        <div class="act-note">12 דקות מהקניון • <a href="http://www.krakowarcademuseum.com">אתר</a></div>
+        <div class="act-name"><span class="act-optional">אופציה</span> מוזיאון הארקייד</div>
+        <div class="act-note">12 דקות מהקניון • אם נשאר כוח! • <a href="http://www.krakowarcademuseum.com">אתר</a></div>
       </div>
       <a class="act-nav" href="https://waze.com/ul?q=Krakow+Arcade+Museum">ניווט</a>
     </div>
@@ -1287,6 +1314,93 @@
 
   <div style="text-align:center; padding:16px; font-size:11px; color:var(--sub);">
     💡 כל המחירים משוערים • אוגוסט 2026
+  </div>
+</div>
+
+<!-- ===== RAIN PAGE ===== -->
+<div id="page-rain" class="page">
+  <div class="hero">
+    <div class="hero-flag">🌧️</div>
+    <h1>יום גשום – תוכנית גיבוי</h1>
+    <p>תוכנית מלאה לכל יום גשום בסלובקיה</p>
+    <div class="hero-tags">
+      <span class="tag">🧊 מערות</span>
+      <span class="tag">🌊 פארקי מים</span>
+      <span class="tag">🛍️ קניות</span>
+      <span class="tag">🎮 פנים</span>
+    </div>
+  </div>
+
+  <style>
+    .rain-note { background:rgba(78,168,222,0.08); border:1px solid rgba(78,168,222,0.2); border-radius:12px; margin:0 16px 16px; padding:12px 16px; font-size:12px; color:#9BB5C8; line-height:1.6; }
+  </style>
+
+  <div class="rain-note">
+    💡 יום גשום בטטרות הנמוכות? אל תדאגו - יש המון מה לעשות! התוכנית הזו מחליפה יום מלא באוויר הפתוח.
+  </div>
+
+  <!-- בוקר -->
+  <div class="att-section"><span class="att-section-flag">🌅</span><span class="att-section-title">בוקר – מערות</span><div class="att-section-line"></div></div>
+
+  <div class="att-card">
+    <div class="att-top"><div class="att-emoji">🧊</div><div><div class="att-name">מערת הקרח דמנובסקה ⭐</div><div class="att-loc">📍 5 דקות מהבקתה • סיור 45 דקות</div></div></div>
+    <div class="att-desc">מערה עם קרח קבוע כל השנה - טמפרטורה 0-3°C. להביא סוודרים וג'קטים לכולם! אחת המערות היפות בסלובקיה עם נטיפי קרח מרהיבים. עלייה של 20 דקות ברגל מהחניה.</div>
+    <div class="att-actions"><a class="att-btn-book" href="https://www.ssj.sk/en/jaskyna/5-demanovska-ice-cave">🎟️ להזמנה</a><a class="att-btn-nav" href="https://waze.com/ul?q=Demanovska+Ice+Cave+Slovakia">ניווט</a></div>
+  </div>
+
+  <div class="att-card">
+    <div class="att-top"><div class="att-emoji">🕳️</div><div><div class="att-name">מערת החירות – Cave of Liberty</div><div class="att-loc">📍 5 דקות מהבקתה • סיור 60-100 דקות</div></div></div>
+    <div class="att-desc">המערה הגדולה יותר - 11 ק"מ ארוכה! אולמות ענקיים, נטיפים ועמודים. מסלול קלאסי 60 דקות או מסלול מורחב 100 דקות עם 913-1118 מדרגות.</div>
+    <div class="att-actions"><a class="att-btn-book" href="https://www.ssj.sk/en/jaskyna/4-demanovska-cave-of-liberty">🎟️ להזמנה</a><a class="att-btn-nav" href="https://waze.com/ul?q=Demanovska+Cave+Liberty+Slovakia">ניווט</a></div>
+  </div>
+
+  <!-- צהריים -->
+  <div class="att-section"><span class="att-section-flag">☀️</span><span class="att-section-title">צהריים – אוכל</span><div class="att-section-line"></div></div>
+
+  <div class="att-card">
+    <div class="att-top"><div class="att-emoji">🍖</div><div><div class="att-name">Koliba Bešeňovka</div><div class="att-loc">📍 25 דקות מהבקתה</div></div></div>
+    <div class="att-desc">מסעדה סלובקית אותנטית עם בשרים, מרקים ואווירה הררית חמה. מושלמת לחימום אחרי המערות.</div>
+    <div class="att-actions"><a class="att-btn-nav" href="https://waze.com/ul?q=Koliba+Besenova">ניווט</a></div>
+  </div>
+
+  <!-- אחר הצהריים -->
+  <div class="att-section"><span class="att-section-flag">🌊</span><span class="att-section-title">אחר הצהריים – בריכות מקוריות</span><div class="att-section-line"></div></div>
+
+  <div class="att-card">
+    <div class="att-top"><div class="att-emoji">🌊</div><div><div class="att-name">Tatralandia – גם בגשם! ⭐</div><div class="att-loc">📍 15 דקות מהבקתה • פתוח 10:00-20:00</div></div></div>
+    <div class="att-desc">יש בריכות פנימיות מחוממות! גשם בחוץ לא משנה כלום. ילדים בבריכות חמות = מושלם ליום קריר. להזמין ב-gopass.travel.</div>
+    <div class="att-actions"><a class="att-btn-book" href="https://www.gopass.travel/homepage/tatralandia">🎟️ להזמנה</a><a class="att-btn-nav" href="https://waze.com/ul?q=Aquapark+Tatralandia">ניווט</a></div>
+  </div>
+
+  <div class="att-card">
+    <div class="att-top"><div class="att-emoji">🌡️</div><div><div class="att-name">Bešeňová – מים תרמיים</div><div class="att-loc">📍 25 דקות מהבקתה • פתוח 10:00-20:00</div></div></div>
+    <div class="att-desc">מים מינרליים חמים בטמפרטורת 38°C - הכי נעים בדיוק ביום גשום וקריר! גשם בחוץ + מים חמים = חוויה מיוחדת.</div>
+    <div class="att-actions"><a class="att-btn-official" href="https://www.besenova.com/en">אתר רשמי</a><a class="att-btn-nav" href="https://waze.com/ul?q=Besenova+Aquapark">ניווט</a></div>
+  </div>
+
+  <!-- ערב -->
+  <div class="att-section"><span class="att-section-flag">🛍️</span><span class="att-section-title">אופציות נוספות</span><div class="att-section-line"></div></div>
+
+  <div class="att-card">
+    <div class="att-top"><div class="att-emoji">🛍️</div><div><div class="att-name">קניון Liptovský Mikuláš</div><div class="att-loc">📍 15 דקות מהבקתה</div></div></div>
+    <div class="att-desc">Tesco + קניות + פריסטייל. קנייה של מוצרי מקומיים, ממתקים סלובקיים, ציוד לטיול.</div>
+    <div class="att-actions"><a class="att-btn-nav" href="https://waze.com/ul?q=Liptovsky+Mikulas+center">ניווט</a></div>
+  </div>
+
+  <div class="att-card">
+    <div class="att-top"><div class="att-emoji">🍕</div><div><div class="att-name">Marino + Handy Dandy ⭐ <span class="att-badge att-badge-kids">ילדים</span></div><div class="att-loc">📍 15 דקות מהבקתה • Liptovský Mikuláš</div></div></div>
+    <div class="att-desc">מסעדה איטלקית מעולה עם משחקייה ענקית צמודה של 500 מ"ר! טרמפולינות, Xbox, קיר טיפוס, בריכת כדורים, אזור פעוטות ולוח אינטראקטיבי. ההורים אוכלים בשקט והילדים נהנים. מושלם לתינוקת ולכל הגילאים!</div>
+    <div class="att-actions"><a class="att-btn-nav" href="https://waze.com/ul?q=Marino+Restaurant+Liptovsky+Mikulas">ניווט</a></div>
+  </div>
+
+  <div class="att-card">
+    <div class="att-top"><div class="att-emoji">🎮</div><div><div class="att-name">Fun Center PARADOX</div><div class="att-loc">📍 15 דקות מהבקתה • Liptovský Mikuláš</div></div></div>
+    <div class="att-desc">מרכז בילוי פנימי לילדים - אטרקציות שונות, משחקים ופעילויות. מושלם ליום גשום.</div>
+    <div class="att-actions"><a class="att-btn-nav" href="https://waze.com/ul?q=Fun+Center+Paradox+Liptovsky+Mikulas">ניווט</a></div>
+  </div>
+
+  <div style="text-align:center; padding:16px; font-size:11px; color:var(--sub);">
+    🌧️ גשם = הזדמנות לחוויות שלא היית עושה אחרת!
   </div>
 </div>
 
